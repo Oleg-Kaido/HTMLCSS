@@ -1,0 +1,139 @@
+.header{
+	background:#8BC34A;	
+	text-align: center;	
+	font-size:30px;
+	color: #308590;
+	padding: 1px;
+	border-bottom: 1px #ccc solid;
+}
+.center-block {
+	display: flex;
+}
+
+.menu{
+	background:#a2de11;	
+	display: flex;	
+    height: 50px;
+    /* margin: 0 auto; */
+}
+.menu a{
+	color: white;
+	text-decoration:none;
+}
+.menu ul{
+	display:none;
+}
+.menu > ul{
+	display:flex;
+	flex-wrap: wrap;	
+	list-style-type: none;	
+	margin: 10 auto;
+	z-index:10
+}
+.menu li:hover ul{
+	/* margin-left:30px; */
+	display:block;
+	list-style-type: none;
+}
+.button {
+    background-color: #34847e;
+    border-radius: 10px;
+    color: white;
+	cursor: pointer;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px;
+  }
+.button:hover{
+	background-color: #29b7ac;
+}  
+.content{
+	/* background:#00BCD4; */
+	/* flex: 1; */
+	display:flex;	
+	flex-wrap: wrap;
+}
+.today{	
+	width:100%;
+	display:flex;	
+	justify-content:flex-end;	
+}
+.happy{
+	position:fixed;	
+}
+.happy img{
+	max-width:200px;
+	max-height:200px;	
+	border: 1px #2aa095 solid;	
+}
+.product{
+	width:300px;
+	border: 1px #ccc solid;	
+	margin: 5px;	
+}
+.product-name{
+	/* background:#ccc; */
+	text-align: center;
+	border-bottom: 1px #ccc solid;
+}
+.product-img{
+	text-align: center;
+	border-bottom: 1px #ccc solid;
+}
+.product-img img{
+	max-width:150px;
+	max-height:150px;	
+}
+.push{
+	display: flex;
+	border-bottom: 1px #ccc solid;
+	height:40px;
+	align-items:center;	
+	justify-content: space-between;
+}
+.decide{	
+	background-color: #ddf113;
+    border-radius: 10px;
+    color: white;
+    /* padding: 1px 1px; */    
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2px 2px;	
+}
+.decide:hover{
+	background-color:#0fdacc;
+}
+.product-footer table{
+	width:100%;
+}
+.product-footer table td{
+	border: 1px #ccc solid;	
+} 
+.product-footer table tr:nth-of-type(2n+3){
+	background:#ccc;	
+}
+.product-footer table tr:nth-of-type(2){
+	text-align: center;	
+	background:#ffea31;
+}
+.product-footer table tr:first-child td{
+	text-align: center;	
+	background: #83c383;
+}
+.product-footer table img{
+	max-width:30px;
+	max-height:30px;
+}
+.imgtable{
+	text-align: center;	
+}
+.product-footer table tr:hover{
+	background:#cfc;
+}
+.footer{
+	background:#e8ffa3;
+	border-top: 1px #ccc solid;
+	text-align: center;
+}
